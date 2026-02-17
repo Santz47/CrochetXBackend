@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // DATABASE_URL from Render environment variables
-const DATABASE_URL = process.env.database_url;
+const DATABASE_URL = process.env.DATABASE_URL;
 
 // Create a connection pool
 const pool = new Pool({
