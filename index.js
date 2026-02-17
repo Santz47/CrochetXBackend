@@ -2,7 +2,6 @@ const express = require('express');
 const { Pool } = require('pg'); // PostgreSQL client
 
 const app = express();
-require("dotenv").config();
 
 
 // Use the PORT from Render, fallback to 3000 locally
